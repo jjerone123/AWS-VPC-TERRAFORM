@@ -58,8 +58,7 @@ Content-Type: text/html
 The HTTP 200 OK response confirms that my Nginx web server successfully responded to a local HTTP request.
 
 ### Verification Screenshot
-
-![Nginx HTTP Test](%5BNginx%20HTTP%20Test%5Dnginx-https-test.png)
+(nginx-https-test.png)
 ### Skills Demonstrated
 
 - AWS EC2 administration
