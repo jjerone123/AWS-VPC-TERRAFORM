@@ -34,3 +34,37 @@ Screenshots of the AWS infrastructure and deployment will be added here.
 
 ## Cost Management
 AWS resources should be stopped or destroyed when no longer needed to minimize charges.
+
+## Nginx Web Server Verification
+
+### HTTP Connectivity Test
+
+Connected to my Amazon Linux 2023 EC2 instance using EC2 Instance Connect.
+
+Ran the following command:
+
+`curl -I http://localhost`
+
+### Test Results
+
+HTTP/1.1 200 OK
+
+Server: nginx/1.30.6
+
+Content-Type: text/html
+
+### What This Proves
+
+The HTTP 200 OK response confirms that my Nginx web server successfully responded to a local HTTP request.
+
+### Verification Screenshot
+
+![Nginx HTTP Test](%5BNginx%20HTTP%20Test%5Dnginx-https-test.png)
+### Skills Demonstrated
+
+- AWS EC2 administration
+- Linux command-line troubleshooting
+- Nginx web server testing
+- HTTP connectivity verification
+
+
