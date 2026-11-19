@@ -30,7 +30,13 @@ Built AWS networking infrastructure using Terraform and deployed an EC2 web serv
 - Infrastructure troubleshooting
 
 ## Project Screenshots
-Screenshots of the AWS infrastructure and deployment will be added here.
+Screenshots of my AWS infrastructure and deployed web server:
+
+![EC2 Instance](Instances%20Checked.png)
+
+![Linux Terminal](Linux%20Terminal.png)
+
+![Deployed Website](Website.png)
 
 ## Cost Management
 AWS resources should be stopped or destroyed when no longer needed to minimize charges.
